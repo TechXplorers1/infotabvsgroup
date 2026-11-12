@@ -85,7 +85,7 @@ describe("inquiry EmailJS templates", () => {
       template_id: string;
       template_params: Record<string, unknown>;
     };
-    expect(request.template_id).toBe("template_mz83mel");
+    expect(request.template_id).toBe("template_un8tzws");
     expect(request.template_params["message"]).toContain("CONTACT INQUIRY FORM");
     expect(request.template_params["message"]).toContain(contactInquiry.resumeDriveLink);
     expect(request.template_params["html_message"]).toContain("New Contact Form Message");
@@ -143,7 +143,7 @@ describe("inquiry EmailJS templates", () => {
       template_id: string;
       template_params: Record<string, unknown>;
     };
-    expect(request.template_id).toBe("template_kgdwzmr");
+    expect(request.template_id).toBe("template_fbf5fm6");
     expect(request.template_params["message"]).toContain("EMPLOYER INTAKE FORM");
     expect(request.template_params["html_message"]).toContain("New Staffing & Hiring Requirements");
     expect(request.template_params).not.toHaveProperty("inquiry_type");
@@ -155,12 +155,12 @@ describe("inquiry EmailJS templates", () => {
     vi.stubGlobal("fetch", fetchMock);
 
     await sendStaffingInquiryEmail(staffingInquiry, {
-      templateId: " template_kgdwzmr ",
+      templateId: " template_fbf5fm6 ",
     });
 
     const request = JSON.parse(fetchMock.mock.calls[0]?.[1]?.body as string) as {
       template_id: string;
     };
-    expect(request.template_id).toBe("template_kgdwzmr");
+    expect(request.template_id).toBe("template_fbf5fm6");
   });
 });

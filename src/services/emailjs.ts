@@ -23,19 +23,19 @@ export interface EmailJSConfig {
 
 export const EMAILJS_CONFIG: EmailJSConfig = {
   serviceId: (
-    (import.meta.env["VITE_EMAILJS_SERVICE_ID"] as string | undefined) || "service_x9sfadd"
+    (import.meta.env["VITE_EMAILJS_SERVICE_ID"] as string | undefined) || "service_1aig5dj"
   ).trim(),
   templateId: (
-    (import.meta.env["VITE_EMAILJS_TEMPLATE_ID"] as string | undefined) || "template_mz83mel"
+    (import.meta.env["VITE_EMAILJS_TEMPLATE_ID"] as string | undefined) || "template_un8tzws"
   ).trim(),
   staffingTemplateId: (
-    (import.meta.env["VITE_EMAILJS_STAFFING_TEMPLATE_ID"] as string | undefined) || "template_kgdwzmr"
+    (import.meta.env["VITE_EMAILJS_STAFFING_TEMPLATE_ID"] as string | undefined) || "template_fbf5fm6"
   ).trim(),
   contactTemplateId: (
-    (import.meta.env["VITE_EMAILJS_CONTACT_TEMPLATE_ID"] as string | undefined) || "template_mz83mel"
+    (import.meta.env["VITE_EMAILJS_CONTACT_TEMPLATE_ID"] as string | undefined) || "template_un8tzws"
   ).trim(),
   publicKey: (
-    (import.meta.env["VITE_EMAILJS_PUBLIC_KEY"] as string | undefined) || "AvYtZ2RLTwdD5Rbxv"
+    (import.meta.env["VITE_EMAILJS_PUBLIC_KEY"] as string | undefined) || "knbgmJkufTt_pX4fp"
   ).trim(),
 };
 
@@ -628,7 +628,7 @@ export async function sendContactInquiryEmail(
 </div>
 `.trim();
 
-  // Contact-specific template parameters for template_mz83mel.
+  // Contact-specific template parameters for template_un8tzws.
   const templateParams: Record<string, unknown> = {
     // Direct routing to sandeepsapare.tx@gmail.com
     to_email: "sandeepsapare.tx@gmail.com",
@@ -700,7 +700,7 @@ export async function sendContactInquiryEmail(
   };
 
   const primaryTemplateId = (
-    customConfig?.templateId || EMAILJS_CONFIG.contactTemplateId || "template_mz83mel"
+    customConfig?.templateId || EMAILJS_CONFIG.contactTemplateId || "template_un8tzws"
   )?.trim();
 
   return sendEmailJS(templateParams, {
@@ -993,7 +993,7 @@ export async function sendStaffingInquiryEmail(
   };
 
   const primaryTemplateId = (
-    customConfig?.templateId || EMAILJS_CONFIG.staffingTemplateId || "template_kgdwzmr"
+    customConfig?.templateId || EMAILJS_CONFIG.staffingTemplateId || "template_fbf5fm6"
   )?.trim();
 
   return sendEmailJS(templateParams, {
