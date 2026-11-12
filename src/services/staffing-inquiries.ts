@@ -299,7 +299,7 @@ export async function processStaffingInquiry(
       preview: `Dear ${payload.contactPerson}, thank you for contacting TAB V&S Group. Your staffing inquiry for ${payload.positionTitle} (${serviceMeta.name}) has been received and assigned to our recruiting practice.`,
     },
     internalAlert: {
-      to: "sandeepsapare.tx@gmail.com",
+      to: "tabeng14@infotabvsgroup.com",
       subject: `🚨 NEW STAFFING INQUIRY: ${payload.companyName} (${payload.employeeCount} ${payload.positionTitle})`,
       sentAt: now,
       priority:

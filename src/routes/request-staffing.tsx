@@ -237,7 +237,7 @@ export default function RequestStaffingPage() {
       }
     } catch {
       setGeneralError(
-        "A network error occurred while submitting your request. Please try again or contact us directly at sandeepsapare.tx@gmail.com.",
+        "A network error occurred while submitting your request. Please try again or contact us directly at tabeng14@infotabvsgroup.com.",
       );
     } finally {
       setIsSubmitting(false);
@@ -416,7 +416,7 @@ export default function RequestStaffingPage() {
                     </span>
                     , and full requirements have been routed to{" "}
                     <span className="font-semibold text-[#0B1F3A]">
-                      sandeepsapare.tx@gmail.com
+                      tabeng14@infotabvsgroup.com
                     </span>
                     .
                   </p>

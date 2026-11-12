@@ -165,7 +165,7 @@ export async function sendJobApplicationEmail(
     `Position Applied: ${record.jobTitle}`,
     `Reference ID:     ${record.referenceNumber}`,
     `Submitted At:     ${formattedDate}`,
-    `Target Recipient: sandeepsapare.tx@gmail.com`,
+    `Target Recipient: tabeng14@infotabvsgroup.com`,
     ``,
     `[1] CANDIDATE DETAILS`,
     `--------------------------------------------------`,
@@ -198,7 +198,7 @@ export async function sendJobApplicationEmail(
   <div style="padding: 24px 30px;">
     <!-- Recipient Banner -->
     <div style="background-color: #FFF1E5; border-left: 4px solid #F47B20; padding: 12px 16px; border-radius: 4px; margin-bottom: 24px;">
-      <p style="margin: 0; font-size: 13px; color: #0B1F3A;"><strong>Destination:</strong> This application was submitted for <strong>sandeepsapare.tx@gmail.com</strong>.</p>
+      <p style="margin: 0; font-size: 13px; color: #0B1F3A;"><strong>Destination:</strong> This application was submitted for <strong>tabeng14@infotabvsgroup.com</strong>.</p>
     </div>
 
     <!-- Candidate Information -->
@@ -244,18 +244,18 @@ export async function sendJobApplicationEmail(
   </div>
 
   <div style="background-color: #F7F8FA; padding: 16px 30px; border-top: 1px solid #E8ECF1; text-align: center;">
-    <p style="margin: 0; font-size: 12px; color: #98A2B3;">TAB V&S Group Recruitment Agency • Automated System Dispatch to sandeepsapare.tx@gmail.com</p>
+    <p style="margin: 0; font-size: 12px; color: #98A2B3;">TAB V&S Group Recruitment Agency • Automated System Dispatch to tabeng14@infotabvsgroup.com</p>
   </div>
 </div>
 `.trim();
 
   const templateParams: Record<string, unknown> = {
-    // Direct Routing to sandeepsapare.tx@gmail.com
-    to_email: "sandeepsapare.tx@gmail.com",
-    recipient_email: "sandeepsapare.tx@gmail.com",
-    target_email: "sandeepsapare.tx@gmail.com",
-    admin_email: "sandeepsapare.tx@gmail.com",
-    to: "sandeepsapare.tx@gmail.com",
+    // Direct Routing to tabeng14@infotabvsgroup.com
+    to_email: "tabeng14@infotabvsgroup.com",
+    recipient_email: "tabeng14@infotabvsgroup.com",
+    target_email: "tabeng14@infotabvsgroup.com",
+    admin_email: "tabeng14@infotabvsgroup.com",
+    to: "tabeng14@infotabvsgroup.com",
     to_name: "Sandeep Sapare",
 
     // Subject
@@ -346,7 +346,7 @@ export async function sendResumeSubmissionEmail(
     `Desired Position:  ${record.desiredPosition || "General Direct-Hire Placement"}`,
     `Reference ID:      ${record.referenceNumber}`,
     `Submitted At:      ${formattedDate}`,
-    `Target Recipient:  sandeepsapare.tx@gmail.com`,
+    `Target Recipient:  tabeng14@infotabvsgroup.com`,
     ``,
     `[1] CANDIDATE DETAILS`,
     `--------------------------------------------------`,
@@ -379,7 +379,7 @@ export async function sendResumeSubmissionEmail(
   <div style="padding: 24px 30px;">
     <!-- Recipient Banner -->
     <div style="background-color: #FFF1E5; border-left: 4px solid #F47B20; padding: 12px 16px; border-radius: 4px; margin-bottom: 24px;">
-      <p style="margin: 0; font-size: 13px; color: #0B1F3A;"><strong>Destination:</strong> This resume was submitted for <strong>sandeepsapare.tx@gmail.com</strong>.</p>
+      <p style="margin: 0; font-size: 13px; color: #0B1F3A;"><strong>Destination:</strong> This resume was submitted for <strong>tabeng14@infotabvsgroup.com</strong>.</p>
     </div>
 
     <!-- Candidate Profile -->
@@ -429,18 +429,18 @@ export async function sendResumeSubmissionEmail(
   </div>
 
   <div style="background-color: #F7F8FA; padding: 16px 30px; border-top: 1px solid #E8ECF1; text-align: center;">
-    <p style="margin: 0; font-size: 12px; color: #98A2B3;">TAB V&S Group Recruitment Agency • Automated System Dispatch to sandeepsapare.tx@gmail.com</p>
+    <p style="margin: 0; font-size: 12px; color: #98A2B3;">TAB V&S Group Recruitment Agency • Automated System Dispatch to tabeng14@infotabvsgroup.com</p>
   </div>
 </div>
 `.trim();
 
   const templateParams: Record<string, unknown> = {
-    // Direct Routing to sandeepsapare.tx@gmail.com
-    to_email: "sandeepsapare.tx@gmail.com",
-    recipient_email: "sandeepsapare.tx@gmail.com",
-    target_email: "sandeepsapare.tx@gmail.com",
-    admin_email: "sandeepsapare.tx@gmail.com",
-    to: "sandeepsapare.tx@gmail.com",
+    // Direct Routing to tabeng14@infotabvsgroup.com
+    to_email: "tabeng14@infotabvsgroup.com",
+    recipient_email: "tabeng14@infotabvsgroup.com",
+    target_email: "tabeng14@infotabvsgroup.com",
+    admin_email: "tabeng14@infotabvsgroup.com",
+    to: "tabeng14@infotabvsgroup.com",
     to_name: "Sandeep Sapare",
 
     // Subject
@@ -523,7 +523,7 @@ export async function sendContactInquiryEmail(
     `==================================================`,
     `Reference Number: ${record.referenceNumber}`,
     `Submitted At:     ${formattedDate}`,
-    `Target Recipient: sandeepsapare.tx@gmail.com`,
+    `Target Recipient: tabeng14@infotabvsgroup.com`,
     ``,
     `[1] SENDER DETAILS`,
     `--------------------------------------------------`,
@@ -567,7 +567,7 @@ export async function sendContactInquiryEmail(
   <div style="padding: 24px 30px;">
     <!-- Recipient Banner -->
     <div style="background-color: #FFF1E5; border-left: 4px solid #F47B20; padding: 12px 16px; border-radius: 4px; margin-bottom: 24px;">
-      <p style="margin: 0; font-size: 13px; color: #0B1F3A;"><strong>Destination:</strong> This inquiry was submitted for <strong>sandeepsapare.tx@gmail.com</strong>.</p>
+      <p style="margin: 0; font-size: 13px; color: #0B1F3A;"><strong>Destination:</strong> This inquiry was submitted for <strong>tabeng14@infotabvsgroup.com</strong>.</p>
     </div>
 
     <!-- Sender Details -->
@@ -623,19 +623,19 @@ export async function sendContactInquiryEmail(
   </div>
 
   <div style="background-color: #F7F8FA; padding: 16px 30px; border-top: 1px solid #E8ECF1; text-align: center;">
-    <p style="margin: 0; font-size: 12px; color: #98A2B3;">TAB V&S Group Recruitment Agency • Automated System Dispatch to sandeepsapare.tx@gmail.com</p>
+    <p style="margin: 0; font-size: 12px; color: #98A2B3;">TAB V&S Group Recruitment Agency • Automated System Dispatch to tabeng14@infotabvsgroup.com</p>
   </div>
 </div>
 `.trim();
 
   // Contact-specific template parameters for template_un8tzws.
   const templateParams: Record<string, unknown> = {
-    // Direct routing to sandeepsapare.tx@gmail.com
-    to_email: "sandeepsapare.tx@gmail.com",
-    recipient_email: "sandeepsapare.tx@gmail.com",
-    target_email: "sandeepsapare.tx@gmail.com",
-    admin_email: "sandeepsapare.tx@gmail.com",
-    to: "sandeepsapare.tx@gmail.com",
+    // Direct routing to tabeng14@infotabvsgroup.com
+    to_email: "tabeng14@infotabvsgroup.com",
+    recipient_email: "tabeng14@infotabvsgroup.com",
+    target_email: "tabeng14@infotabvsgroup.com",
+    admin_email: "tabeng14@infotabvsgroup.com",
+    to: "tabeng14@infotabvsgroup.com",
     to_name: "Sandeep Sapare",
 
     // Subject lines
@@ -731,7 +731,7 @@ export async function sendStaffingInquiryEmail(
     `==================================================`,
     `Reference Number: ${record.referenceNumber}`,
     `Submitted At:     ${formattedDate}`,
-    `Target Recipient: sandeepsapare.tx@gmail.com`,
+    `Target Recipient: tabeng14@infotabvsgroup.com`,
     ``,
     `[1] COMPANY INFORMATION`,
     `--------------------------------------------------`,
@@ -779,7 +779,7 @@ export async function sendStaffingInquiryEmail(
   <div style="padding: 24px 30px;">
     <!-- Recipient Banner -->
     <div style="background-color: #FFF1E5; border-left: 4px solid #F47B20; padding: 12px 16px; border-radius: 4px; margin-bottom: 24px;">
-      <p style="margin: 0; font-size: 13px; color: #0B1F3A;"><strong>Destination:</strong> This request was submitted for <strong>sandeepsapare.tx@gmail.com</strong>.</p>
+      <p style="margin: 0; font-size: 13px; color: #0B1F3A;"><strong>Destination:</strong> This request was submitted for <strong>tabeng14@infotabvsgroup.com</strong>.</p>
     </div>
 
     <!-- Section 1: Company Information -->
@@ -880,20 +880,20 @@ export async function sendStaffingInquiryEmail(
   </div>
 
   <div style="background-color: #F7F8FA; padding: 16px 30px; border-top: 1px solid #E8ECF1; text-align: center;">
-    <p style="margin: 0; font-size: 12px; color: #98A2B3;">TAB V&S Group Recruitment Agency • Automated System Dispatch to sandeepsapare.tx@gmail.com</p>
+    <p style="margin: 0; font-size: 12px; color: #98A2B3;">TAB V&S Group Recruitment Agency • Automated System Dispatch to tabeng14@infotabvsgroup.com</p>
   </div>
 </div>
 `.trim();
 
   const templateParams: Record<string, unknown> = {
-    // Subject & Recipient Targeting (Direct to sandeepsapare.tx@gmail.com)
+    // Subject & Recipient Targeting (Direct to tabeng14@infotabvsgroup.com)
     subject: `🚨 Employer Staffing Request: ${record.companyName} — ${record.positionTitle} [Ref: ${record.referenceNumber}]`,
     email_subject: `🚨 Employer Staffing Request: ${record.companyName} — ${record.positionTitle} [Ref: ${record.referenceNumber}]`,
-    to_email: "sandeepsapare.tx@gmail.com",
-    recipient_email: "sandeepsapare.tx@gmail.com",
-    target_email: "sandeepsapare.tx@gmail.com",
-    admin_email: "sandeepsapare.tx@gmail.com",
-    to: "sandeepsapare.tx@gmail.com",
+    to_email: "tabeng14@infotabvsgroup.com",
+    recipient_email: "tabeng14@infotabvsgroup.com",
+    target_email: "tabeng14@infotabvsgroup.com",
+    admin_email: "tabeng14@infotabvsgroup.com",
+    to: "tabeng14@infotabvsgroup.com",
     to_name: "Sandeep Sapare",
 
     // Sender details

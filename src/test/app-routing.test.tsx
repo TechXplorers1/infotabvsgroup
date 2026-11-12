@@ -244,7 +244,7 @@ describe("Staffing Inquiry Backend Service", () => {
     if (result.success) {
       expect(result.inquiry.referenceNumber).toMatch(/^TAB-REQ-2026-\d{5}$/);
       expect(result.inquiry.confirmationEmail.to).toBe(payload.businessEmail);
-      expect(["sandeepsapare.tx@gmail.com", "recruiting@tabvsgroup.com"]).toContain(result.inquiry.internalAlert.to);
+      expect(["tabeng14@infotabvsgroup.com", "recruiting@tabvsgroup.com"]).toContain(result.inquiry.internalAlert.to);
     }
   });
 });
@@ -289,7 +289,7 @@ describe("Contact Inquiry Backend Service", () => {
     const stored = processContactInquiry(payload);
     expect(stored.referenceNumber).toMatch(/^TAB-MSG-2026-\d{5}$/);
     expect(stored.confirmationEmail.to).toBe("jordan@example.com");
-    expect(["sandeepsapare.tx@gmail.com", "tabeng14@infotabvsgroup.com"]).toContain(stored.internalAlert.to);
+    expect(["tabeng14@infotabvsgroup.com", "tabeng14@infotabvsgroup.com"]).toContain(stored.internalAlert.to);
     expect(stored.internalAlert.priority).toBe("High");
   });
 

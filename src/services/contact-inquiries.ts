@@ -132,7 +132,7 @@ export function processContactInquiry(payload: ContactInquiryPayload): StoredCon
       preview: `Hello ${payload.fullName}, thank you for contacting TAB V&S Group. We have received your inquiry regarding "${payload.subject}" and our team will follow up promptly.`,
     },
     internalAlert: {
-      to: "sandeepsapare.tx@gmail.com",
+      to: "tabeng14@infotabvsgroup.com",
       subject: `[New Inquiry] ${referenceNumber}: ${payload.subject} (${payload.userType})`,
       sentAt: timestamp,
       priority: payload.userType === "Employer" ? "High" : "Normal",
