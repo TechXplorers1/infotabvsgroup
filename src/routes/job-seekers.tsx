@@ -265,33 +265,33 @@ export default function JobSeekersPage() {
               </div>
 
               {/* 3-Column Proof Strip */}
-              <div className="mt-10 pt-7 border-t border-[#E8ECF1] grid grid-cols-1 xs:grid-cols-3 gap-3.5 sm:gap-6 max-w-lg">
+              <div className="mt-10 pt-7 border-t border-[#E8ECF1] grid grid-cols-3 gap-3 sm:gap-6 max-w-lg">
                 <div>
                   <p className="text-[11px] font-bold uppercase tracking-wider text-[#667085]">
                     CANDIDATE FEE
                   </p>
-                  <p className="mt-1 text-[14px] sm:text-[15px] font-semibold text-[#0B1F3A]">
+                  <p className="mt-1 text-[13px] sm:text-[15px] font-semibold text-[#0B1F3A]">
                     100% Free
                   </p>
-                  <p className="text-[12px] text-[#667085]">No costs for job seekers</p>
+                  <p className="text-[11px] sm:text-[12px] text-[#667085]">No costs for job seekers</p>
                 </div>
                 <div>
                   <p className="text-[11px] font-bold uppercase tracking-wider text-[#667085]">
                     PLACEMENT TYPE
                   </p>
-                  <p className="mt-1 text-[14px] sm:text-[15px] font-semibold text-[#0B1F3A]">
+                  <p className="mt-1 text-[13px] sm:text-[15px] font-semibold text-[#0B1F3A]">
                     Direct-Hire
                   </p>
-                  <p className="text-[12px] text-[#667085]">Long-term careers</p>
+                  <p className="text-[11px] sm:text-[12px] text-[#667085]">Long-term careers</p>
                 </div>
                 <div>
                   <p className="text-[11px] font-bold uppercase tracking-wider text-[#667085]">
                     SECTORS
                   </p>
-                  <p className="mt-1 text-[14px] sm:text-[15px] font-semibold text-[#0B1F3A]">
+                  <p className="mt-1 text-[13px] sm:text-[15px] font-semibold text-[#0B1F3A]">
                     5 Disciplines
                   </p>
-                  <p className="text-[12px] text-[#667085]">Dedicated recruiters</p>
+                  <p className="text-[11px] sm:text-[12px] text-[#667085]">Dedicated recruiters</p>
                 </div>
               </div>
             </div>

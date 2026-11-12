@@ -142,7 +142,7 @@ export default function AboutPage() {
               </div>
 
               {/* 3 Compact Information Points */}
-              <div className="mt-10 pt-7 border-t border-[#E8ECF1] grid grid-cols-1 xs:grid-cols-3 gap-3.5 sm:gap-6 max-w-lg">
+              <div className="mt-10 pt-7 border-t border-[#E8ECF1] grid grid-cols-3 gap-4 sm:gap-6 max-w-lg">
                 <div>
                   <p className="text-[12px] font-bold uppercase tracking-wider text-[#667085]">
                     MODEL:
@@ -697,4 +697,3 @@ export default function AboutPage() {
     </div>
   );
 }
-

@@ -304,33 +304,33 @@ export default function ContactPage() {
               </div>
 
               {/* 3-Column Proof Strip */}
-              <div className="mt-10 pt-7 border-t border-[#E8ECF1] grid grid-cols-1 xs:grid-cols-3 gap-3.5 sm:gap-6 max-w-lg">
+              <div className="mt-10 pt-7 border-t border-[#E8ECF1] grid grid-cols-3 gap-3 sm:gap-6 max-w-lg">
                 <div>
                   <p className="text-[11px] font-bold uppercase tracking-wider text-[#667085]">
                     RESPONSE TIME
                   </p>
-                  <p className="mt-1 text-[14px] sm:text-[15px] font-semibold text-[#0B1F3A]">
+                  <p className="mt-1 text-[13px] sm:text-[15px] font-semibold text-[#0B1F3A]">
                     &lt; 24 Hours
                   </p>
-                  <p className="text-[12px] text-[#667085]">Rapid business follow-up</p>
+                  <p className="text-[11px] sm:text-[12px] text-[#667085]">Rapid business follow-up</p>
                 </div>
                 <div>
                   <p className="text-[11px] font-bold uppercase tracking-wider text-[#667085]">
                     HEADQUARTERS
                   </p>
-                  <p className="mt-1 text-[14px] sm:text-[15px] font-semibold text-[#0B1F3A]">
+                  <p className="mt-1 text-[13px] sm:text-[15px] font-semibold text-[#0B1F3A]">
                     Westerville, OH
                   </p>
-                  <p className="text-[12px] text-[#667085]">Nationwide reach</p>
+                  <p className="text-[11px] sm:text-[12px] text-[#667085]">Nationwide reach</p>
                 </div>
                 <div>
                   <p className="text-[11px] font-bold uppercase tracking-wider text-[#667085]">
                     MODEL
                   </p>
-                  <p className="mt-1 text-[14px] sm:text-[15px] font-semibold text-[#0B1F3A]">
+                  <p className="mt-1 text-[13px] sm:text-[15px] font-semibold text-[#0B1F3A]">
                     Direct-Hire
                   </p>
-                  <p className="text-[12px] text-[#667085]">Verified placements</p>
+                  <p className="text-[11px] sm:text-[12px] text-[#667085]">Verified placements</p>
                 </div>
               </div>
             </div>

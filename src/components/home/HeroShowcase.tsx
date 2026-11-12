@@ -46,7 +46,7 @@ export function HeroShowcase() {
             </p>
 
             {/* Exactly Two CTA Buttons: Explore Services and Explore Jobs */}
-            <div className="mt-8 sm:mt-9 flex flex-col xs:flex-row items-stretch xs:items-center gap-3.5 sm:gap-4">
+            <div className="mt-8 sm:mt-9 flex flex-col sm:flex-row items-stretch sm:items-center gap-3.5 sm:gap-4">
               <Link
                 to="/services"
                 className="inline-flex items-center justify-center h-12 sm:h-13 px-7 sm:px-8 rounded-full bg-[#F47B20] hover:bg-[#e06d17] text-white text-[15px] font-semibold shadow-[0_8px_24px_rgba(244,123,32,0.35)] transition-all duration-200 hover:-translate-y-0.5 cursor-pointer text-center"

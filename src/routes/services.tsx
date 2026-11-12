@@ -7,10 +7,6 @@ import {
   Package,
   HeartPulse,
   Sparkles,
-  ClipboardList,
-  Search,
-  Handshake,
-  BadgeCheck,
   Briefcase,
   Target,
   UserCheck,
@@ -147,7 +143,6 @@ const serviceRows = [
   },
 ];
 
-
 const approachPrinciples = [
   {
     title: "Direct-Hire Commitment",
@@ -232,7 +227,7 @@ export default function ServicesPage() {
           </div>
 
           {/* CORE RECRUITMENT STANDARDS STRIP */}
-          <div className="mt-12 max-w-4xl mx-auto grid grid-cols-1 xs:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 pt-8 border-t border-white/10 text-center">
+          <div className="mt-12 max-w-4xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 pt-8 border-t border-white/10 text-center">
             <div>
               <p className="text-[11px] font-bold uppercase tracking-wider text-[#F47B20]">
                 Placement Model
@@ -284,7 +279,7 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* 05. SECTION 03 – FIVE SERVICES: ALTERNATING ZIG-ZAG EDITORIAL SHOWCASE */}
+      {/* 05. SECTION 03 – FIVE SERVICES: EDITORIAL SHOWCASE */}
       <section id="services-showcase" className="scroll-mt-24">
         <div className="space-y-0">
           {serviceRows.map((service, index) => {
@@ -359,12 +354,12 @@ export default function ServicesPage() {
                         </div>
                       </div>
 
-                      {/* CTA Button -> Direct to /request-staffing with preselected service */}
-                      <div className="mt-6">
+                      {/* CTA Buttons */}
+                      <div className="mt-6 flex flex-wrap items-center gap-3">
                         <Button
                           asChild
                           variant="outline"
-                          className="h-10.5 px-5 rounded-[8px] border-[#F47B20] text-[#F47B20] hover:bg-[#F47B20] hover:text-white text-[14px] font-semibold transition-all inline-flex items-center gap-2 group/btn"
+                          className="h-10.5 px-5 rounded-[8px] border-[#F47B20] text-[#F47B20] hover:bg-[#F47B20] hover:text-white text-[14px] font-semibold transition-all inline-flex items-center gap-2 group/btn cursor-pointer"
                         >
                           <Link
                             to="/request-staffing"
@@ -372,6 +367,19 @@ export default function ServicesPage() {
                           >
                             Request Staffing for This Service
                             <ArrowRight className="size-4 transition-transform group-hover/btn:translate-x-1" />
+                          </Link>
+                        </Button>
+                        <Button
+                          asChild
+                          variant="ghost"
+                          className="h-10.5 px-4 rounded-[8px] text-[#0B1F3A] hover:bg-[#0B1F3A]/5 text-[14px] font-semibold transition-all inline-flex items-center gap-1.5 cursor-pointer"
+                        >
+                          <Link
+                            to="/jobs"
+                            search={{ industry: service.serviceKey }}
+                          >
+                            Explore Available Jobs
+                            <ArrowRight className="size-3.5" />
                           </Link>
                         </Button>
                       </div>
